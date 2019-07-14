@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib 
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facelettaglibrary_2_2.xsd"
+    version="2.2">
+	
+	<description>My Components</description>
+    <namespace>http://mycomponents.com</namespace>
+	<short-name>my</short-name>
+	<tag>
+		<tag-name>confirmAction</tag-name>
+		<behavior>
+			<behavior-id>confirm</behavior-id>
+		</behavior>
+	</tag>
+	<tag>
+		<tag-name>validateInput</tag-name>
+		<behavior>
+			<behavior-id>required</behavior-id>
+		</behavior>
+	</tag>
+</facelet-taglib>
